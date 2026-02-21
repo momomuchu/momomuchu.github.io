@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LevelUp: Body Tracking Fitness - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        a {
+            color: #48C0FF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 24px 60px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 48px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid #2a2a2a;
+        }
+
+        header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        header h1 span {
+            color: #48C0FF;
+        }
+
+        header p {
+            color: #aaaaaa;
+            font-size: 16px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #48C0FF;
+        }
+
+        .faq-item {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            padding: 20px 24px;
+            margin-bottom: 12px;
+            border: 1px solid #2a2a2a;
+        }
+
+        .faq-item h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .faq-item p {
+            color: #bbbbbb;
+            font-size: 15px;
+        }
+
+        .contact-card {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            padding: 28px;
+            border: 1px solid #2a2a2a;
+            text-align: center;
+        }
+
+        .contact-card p {
+            color: #bbbbbb;
+            font-size: 15px;
+            margin-bottom: 16px;
+        }
+
+        .contact-card .email {
+            display: inline-block;
+            font-size: 18px;
+            font-weight: 600;
+            color: #48C0FF;
+            padding: 10px 24px;
+            border: 1px solid #48C0FF;
+            border-radius: 8px;
+            transition: background-color 0.2s;
+        }
+
+        .contact-card .email:hover {
+            background-color: rgba(72, 192, 255, 0.1);
+            text-decoration: none;
+        }
+
+        .contact-card .response-time {
+            color: #777777;
+            font-size: 13px;
+            margin-top: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 32px;
+            border-top: 1px solid #2a2a2a;
+            color: #555555;
+            font-size: 13px;
+        }
+
+        footer a {
+            color: #777777;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 28px 16px 40px;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+
+            section h2 {
+                font-size: 20px;
+            }
+
+            .faq-item {
+                padding: 16px 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><span>LevelUp</span>: Body Tracking Fitness</h1>
+            <p>Support Center</p>
+        </header>
+
+        <section>
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <h3>How do I create an account?</h3>
+                <p>You can create an account by tapping "Sign in with Apple" on the welcome screen. This is the fastest and most secure way to get started. Your Apple ID email can be shared or hidden depending on your preference.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How does camera tracking work?</h3>
+                <p>LevelUp uses your device's camera to detect body movements in real time. All pose detection is processed entirely on your device using machine learning. No video or images are ever recorded, stored, or sent to any server. Simply position yourself so your full body is visible and follow the on-screen exercise guide.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I earn XP and level up?</h3>
+                <p>You earn XP by completing fitness exercises and challenges. Each correctly performed rep contributes to your XP total. As you accumulate XP, you level up and unlock new milestones. Consistency is key -- the more you train, the faster you progress.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I delete my account?</h3>
+                <p>You can delete your account from the app by going to Settings and tapping "Delete Account." This will permanently remove all your data from our servers. If you are unable to access the app, you can also request account deletion by emailing us at <a href="mailto:contact@nulsion.com">contact@nulsion.com</a>.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>The camera tracking is not working properly. What should I do?</h3>
+                <p>Make sure you are in a well-lit area and that your full body is visible in the camera frame. Stand back far enough so the camera can see your entire body from head to feet. Avoid wearing clothing that blends into the background. If the issue persists, try restarting the app.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Contact Us</h2>
+            <div class="contact-card">
+                <p>Cannot find the answer you are looking for? Reach out to our support team and we will be happy to help.</p>
+                <a href="mailto:contact@nulsion.com" class="email">contact@nulsion.com</a>
+                <p class="response-time">We typically respond within 48 hours.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Mohamed Maache. All rights reserved.</p>
+            <p style="margin-top: 8px;"><a href="levelup-privacy.html">Privacy Policy</a></p>
+        </footer>
+    </div>
+</body>
+</html>
